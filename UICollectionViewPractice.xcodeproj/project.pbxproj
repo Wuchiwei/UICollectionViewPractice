@@ -12,6 +12,7 @@
 		3C1A468422ED5CD3002BA8CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C1A468222ED5CD3002BA8CA /* Main.storyboard */; };
 		3C1A468622ED5CD4002BA8CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C1A468522ED5CD4002BA8CA /* Assets.xcassets */; };
 		3C1A468922ED5CD4002BA8CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C1A468722ED5CD4002BA8CA /* LaunchScreen.storyboard */; };
+		3C1A469122ED62D3002BA8CA /* NTUCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1A469022ED62D3002BA8CA /* NTUCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3C1A468522ED5CD4002BA8CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C1A468822ED5CD4002BA8CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C1A468A22ED5CD4002BA8CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C1A469022ED62D3002BA8CA /* NTUCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTUCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				3C1A467E22ED5CD3002BA8CA /* AppDelegate.swift */,
 				3C1A468022ED5CD3002BA8CA /* ViewController.swift */,
+				3C1A469022ED62D3002BA8CA /* NTUCollectionViewCell.swift */,
 				3C1A468222ED5CD3002BA8CA /* Main.storyboard */,
 				3C1A468522ED5CD4002BA8CA /* Assets.xcassets */,
 				3C1A468722ED5CD4002BA8CA /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				3C1A468122ED5CD3002BA8CA /* ViewController.swift in Sources */,
 				3C1A467F22ED5CD3002BA8CA /* AppDelegate.swift in Sources */,
+				3C1A469122ED62D3002BA8CA /* NTUCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
