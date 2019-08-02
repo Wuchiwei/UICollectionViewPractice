@@ -12,7 +12,7 @@ class ViewController: UIViewController, UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
-        return 100
+        return 30
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -44,12 +44,17 @@ class ViewController: UIViewController, UICollectionViewDataSource {
             return
         }
         
+        collectionView.backgroundColor = UIColor.blue
+        
         flowLayout.scrollDirection = .vertical
         
-        flowLayout.itemSize = CGSize(width: 200, height: 100)
+        flowLayout.itemSize = CGSize(width: 100, height: 100)
         
+        flowLayout.minimumLineSpacing = 40
+        
+        flowLayout.minimumInteritemSpacing = 70
+        
+        flowLayout.sectionInset = UIEdgeInsets(top: 100, left: 40, bottom: 60, right: 0)
     }
-
-
 }
 
